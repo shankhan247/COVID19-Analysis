@@ -28,3 +28,6 @@ Code is located in exp folder. Code is described below. You can run code in term
 - `exp/regr.py`: Trains a linear regression model on the confirmed Corona cases within the  US and predicts future case numbers for the next 11 days. Generates 3 figures: confirmed cases vs predicted cases, trajectory of known and predicted cases over each day since Jan 22 2020, and rates of case numbers per day.
 - `exp/regr_italy.py`: Same as regr.py except a polynomial regression model is used and the cases in Italy are examined. 
 - `exp/regr_china.py`: Same as regr_italy.py except the cases in China are examined.
+
+
+Analysis.pdf provides a brief summary of the methods and generated results.
